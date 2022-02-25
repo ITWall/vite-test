@@ -4,6 +4,6 @@ import logo from "./logo.svg";
 import "./App.css";
 export default function App() {
   return (
-    <img src="src/assets/poster/conan.png" alt="nothing" />
+    <img src="/conan.png" alt="nothing" />
   );
 }
