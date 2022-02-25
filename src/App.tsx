@@ -1,9 +1,8 @@
 import React from "react";
-import Pokemons from "./features/Pokemons";
-import logo from "./logo.svg";
 import "./App.css";
+import imgUrl from "/conan.png";
 export default function App() {
   return (
-    <img src="/conan.png" alt="nothing" />
+    <img src={imgUrl} alt="nothing" />
   );
 }
