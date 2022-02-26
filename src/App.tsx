@@ -6,7 +6,7 @@ export default function App() {
   
   return (
     <>
-    <div>{import.meta.env.VITE_APP_TITLE}  {import.meta.env.VITE_KEY}</div>
+    <div>{import.meta.env.PUBLIC_APP_TITLE}  {import.meta.env.VITE_KEY}</div>
     <img src={imgUrl} alt="nothing" />
     </>
   );

@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [reactRefresh()],
   server: {
     port: 5000
-  }
+  },
+  envPrefix: "PUBLIC"
 })
